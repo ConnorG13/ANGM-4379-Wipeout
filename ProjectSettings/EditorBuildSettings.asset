@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/wipeout new/Scenes/StartScene.unity
+    guid: 6a33dd3166e4aee47b4030ed66afcc75
+  - enabled: 1
+    path: Assets/wipeout new/Scenes/MainGame.unity
+    guid: 143f5941dba47b249975a56dcde2b6b3
+  - enabled: 1
+    path: Assets/wipeout new/Scenes/WinScene.unity
+    guid: 38161123bb1086f4d9cfa60b95a3263f
+  - enabled: 1
+    path: Assets/wipeout new/Scenes/LoseScene.unity
+    guid: e7cf55bbf0f18b1458b3372058ebb38c
   m_configObjects: {}
