@@ -345,8 +345,9 @@ GameObject:
   - component: {fileID: 1457775101}
   - component: {fileID: 1457775100}
   - component: {fileID: 1457775099}
+  - component: {fileID: 1457775102}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: WinVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -381,13 +382,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457775098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.29, y: 6.08, z: 202.42}
-  m_LocalScale: {x: 7.9743905, y: 6.473831, z: 1.5574995}
+  m_LocalPosition: {x: -19.29, y: 7.97, z: 202.42}
+  m_LocalScale: {x: 13.237488, y: 9.866119, z: 1.5574995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457775102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457775098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70d0a3da54d43b4b979c797f7bc4cb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1680382163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -395,6 +408,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6141942565527013491, guid: f7005ff05553d1645ba0e65994116929, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6141942565527013493, guid: f7005ff05553d1645ba0e65994116929, type: 3}
       propertyPath: force
       value: 10

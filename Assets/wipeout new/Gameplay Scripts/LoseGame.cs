@@ -25,7 +25,7 @@ public class LoseGame : MonoBehaviour
 
         playerHeight = playerObject.transform.position.y;
 
-        if (playerHeight <= -10)
+        if (playerHeight <= -5)
         {
             if (cameraFollow.enabled == true)
             {
