@@ -46,4 +46,11 @@ public class Movement : MonoBehaviour
         }
     }
 
+    public void Jump()
+    {
+        if (isGrounded == true)
+        {
+            rb.AddForce(Vector3.up * jumpSpeed);
+        }
+    }
 }
