@@ -17,4 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/wipeout new/Scenes/LoseScene.unity
     guid: e7cf55bbf0f18b1458b3372058ebb38c
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 97f6f76af7057f1439f3b9028685c90c, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 3df3a4c62a17f0947a739b045a4a84fc, type: 2}
