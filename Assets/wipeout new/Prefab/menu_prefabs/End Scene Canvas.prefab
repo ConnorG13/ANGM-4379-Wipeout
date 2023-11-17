@@ -167,8 +167,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5485322366958139215}
-  - {fileID: 2844007809526587208}
   - {fileID: 3810872674040983693}
+  - {fileID: 7065134518307509957}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1001 &7602840269614487972
+--- !u!1001 &3240659409499394089
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -324,7 +324,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5689529541751260899, guid: 8e1663813a28cc540a22897a90f945d1, type: 3}
       propertyPath: m_Name
-      value: Play Again Button
+      value: Play Again Button Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5689529541751260908, guid: 8e1663813a28cc540a22897a90f945d1, type: 3}
       propertyPath: m_Pivot.x
@@ -336,7 +336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5689529541751260908, guid: 8e1663813a28cc540a22897a90f945d1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5689529541751260908, guid: 8e1663813a28cc540a22897a90f945d1, type: 3}
       propertyPath: m_AnchorMax.x
@@ -412,10 +412,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e1663813a28cc540a22897a90f945d1, type: 3}
---- !u!224 &2844007809526587208 stripped
+--- !u!224 &7065134518307509957 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5689529541751260908, guid: 8e1663813a28cc540a22897a90f945d1, type: 3}
-  m_PrefabInstance: {fileID: 7602840269614487972}
+  m_PrefabInstance: {fileID: 3240659409499394089}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8584346778078538102
 PrefabInstance:
@@ -438,7 +438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4882827132634880507, guid: bca576a63a98e2c4fbae5944cea39f6a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4882827132634880507, guid: bca576a63a98e2c4fbae5944cea39f6a, type: 3}
       propertyPath: m_AnchorMax.x
