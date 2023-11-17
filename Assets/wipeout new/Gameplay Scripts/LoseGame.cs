@@ -5,37 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LoseGame : MonoBehaviour
 {
-    private GameObject playerObject;
-    private float playerHeight;
-
-    [SerializeField] private float delay = 1;
-    private float timer;
-
-    private void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        playerObject = this.transform.GetChild(0).gameObject;
-    }
-
-    private void Update()
-    {
-
-        playerHeight = playerObject.transform.position.y;
-
-        if (playerHeight <= -5)
+        if (other.gameObject.CompareTag("Player"))
         {
-
-            timer += Time.deltaTime;
-            if (timer > delay)
-            {
-                EndGame();
-            }
-            
+            SceneManager.LoadScene(3);
         }
-    }
-
-    void EndGame()
-    {
-        SceneManager.LoadScene(3);
     }
 
 }
