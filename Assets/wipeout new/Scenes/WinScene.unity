@@ -407,6 +407,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -128.13
       objectReference: {fileID: 0}
+    - target: {fileID: 5485322366249334916, guid: 76e8a7b140c482d4492d49d6d46005b7, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5485322366249334918, guid: 76e8a7b140c482d4492d49d6d46005b7, type: 3}
       propertyPath: m_Name
       value: End Scene Canvas
