@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5537639265181774787}
   - component: {fileID: 7942222439321305112}
   - component: {fileID: 5894251107444158233}
+  - component: {fileID: 4269967871121327146}
   m_Layer: 0
   m_Name: obs4
   m_TagString: Untagged
@@ -97,3 +98,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.895946, y: 3.4489932, z: 4.9445972}
   m_Center: {x: 0, y: -0.00000017881393, z: 0}
+--- !u!114 &4269967871121327146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272054195488146795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1633f5976f43264fbdd22bee8363903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles: {fileID: 3583140802209596635, guid: fa5b98c620484674ca003737194cd555, type: 3}
