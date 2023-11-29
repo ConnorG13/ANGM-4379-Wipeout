@@ -5,19 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class LoseGame : MonoBehaviour
 {
+
+    public ParticleSystem particles;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(3);
+            Instantiate(particles, other.gameObject.transform.position, other.gameObject.transform.rotation);
+            other.gameObject.SetActive(false);
+            Invoke("MoveToLose", 1);
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(3);
+            Instantiate(particles, other.gameObject.transform.position, other.gameObject.transform.rotation);
+            other.gameObject.SetActive(false);
+            Invoke("MoveToLose", 1);
         }
     }
+
+    private void MoveToLose()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 }
