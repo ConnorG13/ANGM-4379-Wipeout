@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: timmy_controller
+  m_Name: timmy_winningcontroller 1
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: daf1ffd2534b8af4c8c18b689e771573, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 58d945e1594bd59418e6b5e747f1a76d, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

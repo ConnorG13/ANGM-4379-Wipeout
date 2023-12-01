@@ -207,6 +207,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &531745107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1161998720}
+    m_Modifications:
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 41206309493815429, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 853911821756817983, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_Name
+      value: Timmy_winning
+      objectReference: {fileID: 0}
+    - target: {fileID: 853911821756817983, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6229120670205207295, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'mixamorig6:Hips'\n\tTransform 'mixamorig6:LeftHandIndex1'\n\tTransform
+        'mixamorig6:RightForeArm'\n\tTransform 'mixamorig6:Neck'\n\tTransform 'RightHandThumb3'\n\tTransform
+        'mixamorig6:RightHandMiddle2'\n\tTransform 'mixamorig6:RightToeBase'\n\tTransform
+        'mixamorig6:RightHandMiddle3'\n\tTransform 'mixamorig6:LeftHandPinky2'\n\tTransform
+        'mixamorig6:LeftToeBase'\n\tand more ...\n\tFrom animation clip 'Breakdance
+        Ending 2'"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 075e3488558eefd4581d2dd6a8e20366, type: 3}
+--- !u!4 &1161998720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7d58211acaded644bb96e9df777b026, type: 3}
+  m_PrefabInstance: {fileID: 1263144429}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1263144429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -261,6 +338,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f7d58211acaded644bb96e9df777b026, type: 3}
       propertyPath: m_Name
       value: Timmy_model
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233867138446155668, guid: f7d58211acaded644bb96e9df777b026, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7d58211acaded644bb96e9df777b026, type: 3}
